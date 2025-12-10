@@ -1,0 +1,25 @@
+
+name: quiz_game_app 
+description: "quiz game test app for children by fernando jose jacala"
+publish_to: "none" 
+version: 0.1.0 
+
+environment:
+  sdk: ^3.9.0 
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter 
+  
+  flutter_lints: ^6.0.0 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/cp1_test_l1.json 
